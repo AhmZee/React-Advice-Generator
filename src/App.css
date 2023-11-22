@@ -11,7 +11,7 @@
 .App {
   background-color: hsl(218, 23%, 16%);
   height: 100vh;
-  display: flex;
+  padding-top: 150px;
 }
 
 .container {
@@ -26,6 +26,7 @@
   padding: 20px;
   border-radius: 10px;
   position: relative;
+ 
 }
 
 .container h3 {
@@ -55,7 +56,7 @@
   border: none;
 }
 
-.container button:hover{
+.container button:active{
   box-shadow: 0px 0px 20px 0px hsl(150, 100%, 66%);
 }
 

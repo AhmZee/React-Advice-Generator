@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;0,400;0,700;1,500&family=Manrope:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: hsl(193, 38%, 86%);
+  font-family: 'Manrope', sans-serif;
+}
+
+.App {
+  background-color: hsl(218, 23%, 16%);
+  height: 100vh;
+  display: flex;
+}
+
+.container {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: hsl(217, 19%, 24%);
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.container h3 {
+  background-color: transparent;
+  color: hsl(150, 100%, 66%);
+  letter-spacing: 3px;
+  font-size: 0.8rem;
+  margin-top: 20px;
+}
+
+.container h2 {
+  margin: 30px 0;
+  background-color: transparent;
+}
+
+.container .divider {
+  padding-bottom: 25px;
+}
+
+.container button {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -30px;
+  background-color: hsl(150, 100%, 66%);
+  border: none;
+}
+
+.container button:hover{
+  box-shadow: 0px 0px 20px 0px hsl(150, 100%, 66%);
+}
+
+@media (min-width: 400px) {
+  .container {
+    width: 500px;
+  }
+}
